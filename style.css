@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 10vh;
+    padding-top: 1rem;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: rgb(223, 219, 219);
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+    background-color: royalblue;
+}
+
+i {
+    font-size: 40px;
+    color: rgb(99, 181, 248);
+}
+
+i.top {
+    font-size: 15px;
+    color: #444;
+    display: inline;
+    padding-right: 5px;
+}
+
+.what-we-do, .how-quickteller-works, .join, .sign-up {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.what-we-do {
+    margin: 70px auto 60px auto;
+}
+
+.what-we-do h1, .how-quickteller-works h1 {
+    font-size: 40px;
+    color: rgb(26, 65, 97) !important;
+}
+
+.what-we-do p {
+    color: rgb(26, 65, 97);
+    font-size: 18px;
+}
+
+.par-one {
+    padding-top: 10px;
+}
+
+.par-two {
+    padding-bottom: 50px;
+}
+
+.work {
+    display: flex;
+}
+
+.work > .learn {
+    width: 100%;
+    padding: auto 35px;
+}
+
+.work h4, a {
+    font-size: 18px;
+    color: rgb(26, 65, 97);
+}
+
+.work a:hover {
+    color: rgb(105, 147, 182);
+}
+
+.learn {
+    text-align: center;
+    padding: 15px 0 40px 0;
+}
+
+section.how-quickteller-works {
+    width: 100%;
+    background-color: #e5f6fd;
+}
+
+.how-quickteller-works h1 {
+    padding: 70px;
+}
+
+.how-quickteller-works ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.how-quickteller-works li {
+    padding: 20px 20px;
+}
+
+.how-quickteller-works a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.how-quickteller-works a:hover {
+    text-decoration: underline;
+}
+
+.how-quickteller-works hr {
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(147, 169, 187);
+    border: none;
+}
+
+.list {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 60px 0;
+    text-align: start;
+    color: #777777;
+    line-height: 1.5rem;
+}
+
+.list > div {
+    width: 100%;
+    padding: auto 10px;
+}
+
+.list h4 {
+    padding-bottom: 5px;
+}
+
+section.join {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to left, rgb(33, 77, 112), rgb(14, 130, 175));
+    padding-bottom: 50px;
+}
+
+.join h1 {
+    padding: 70px 0 20px 0;
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.join h4 {
+    color: white;
+}
+
+.join p {
+    color: lightblue;
+}
+
+.join-info {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: start;
+}
+
+.join-info > div {
+    width: 100%;
+    padding: 20px;
+}
+
+.join-info h4 {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.join-info p {
+    padding-bottom: 10px;
+}
+
+.join-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sign-up {
+    padding-bottom: 50px;
+}
+
+.sign-up h1 {
+    padding: 50px 0 30px 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.sign-up button {
+    width: 20%;
+    margin: auto;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(41, 105, 224);
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(199, 235, 247);
+    padding: 10px 0;
+}
+
+.top-links {
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr {
+    width: 80%;
+    margin-left: 11rem;
+    height: 1px;
+    background-color: rgb(147, 169, 187);
+    border: none;
+}
+
+.top-links ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.top-links li {
+    padding: 0 10px;
+}
+
+.top-links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.top-links a:hover {
+    color: rgb(105, 147, 182);
+}
+
+.bottom-links {
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-links ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.bottom-links li {
+    padding: 0 10px;
+}
+
+.bottom-links a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+}
+
+.bottom-links a:hover {
+    color: rgb(105, 147, 182);
+}
+
+/* @media only screen and (max-width:800px) {
+
+    .logo img {
+        width: 40%;
+        height: auto;
+    }
+
+    header {
+        width: 90%;
+        height: 5vh;
+        margin-bottom: 20px;
+    }
+
+    nav li {
+        padding: 5px 10px;
+    }
+    
+    nav li a {
+        font-size: 16px;
+    }
+    
+    .hero-image {
+        height: 40vh;
+    }
+    
+    .what-we-do, .how-quickteller-works, .join, .sign-up {
+        width: 90%;
+    }
+
+    .work {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+    } 
+
+    .work > div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .learn {
+        padding-bottom: 5px;
+    }
+
+    .how-quickteller-works hr {
+        display: none;
+    }
+
+    .how-quickteller-works {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        grid-template-areas: 
+        "person person"
+        "busy busy"
+        "worker worker"
+        "job job";
+    }
+
+    .person {
+        display: grid;
+        color: red;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .logo img {
+        width: 70%;
+        height: auto;
+    }
+
+    nav li a {
+        font-size: 14px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do p {
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .what-we-do h4 {
+        font-size: 16px;
+    }
+
+    i,i.top {
+        font-size: 14px;
+    }
+
+    .work {
+        grid-row-gap: 30px;
+        grid-column-gap: 10px;
+    } 
+
+    .work > div {
+        width: 100%;
+    }
+} */
